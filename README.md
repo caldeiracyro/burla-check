@@ -4,7 +4,7 @@ Detector de Alterações em Bulas Digitalizadas com Suporte a Múltiplas Bulas
 
 ## 📋 Descrição
 
-Ferramenta desenvolvida para atender à **RDC nº 885/2024** da Anvisa, utilizando técnicas de processamento de linguagem natural para detectar alterações entre versões de bulas de medicamentos.
+Ferramenta desenvolvida com a finalidade de, por meio de técnicas de processamento de linguagem natural, detectar alterações entre versões de bulas de medicamentos.
 
 ### ✨ Funcionalidades Principais
 
@@ -103,9 +103,6 @@ Contribuições são bem-vindas! Para contribuir:
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## 📞 Suporte
-
-Para dúvidas ou suporte, abra uma issue neste repositório.
 
 ---
 
