@@ -680,7 +680,7 @@ def display_single_bula_result(result: BulaComparison, bula_index: int):
                     st.session_state[show_only_changes_key] = False
                 
                 st.session_state[show_only_changes_key] = st.checkbox(
-                    "🔍 Mostrar apenas alterações",
+                    "Apenas alterações",
                     value=st.session_state[show_only_changes_key],
                     key=f"checkbox_changes{bula_suffix}"
                 )
@@ -688,10 +688,10 @@ def display_single_bula_result(result: BulaComparison, bula_index: int):
             with col2:
                 show_text_diff_key = f"show_text_diff{bula_suffix}"
                 if show_text_diff_key not in st.session_state:
-                    st.session_state[show_text_diff_key] = False
+                    st.session_state[show_text_diff_key] = True
                 
                 st.session_state[show_text_diff_key] = st.checkbox(
-                    "📝 Mostrar diferenças textuais",
+                    "Mostrar diferenças textuais",
                     value=st.session_state[show_text_diff_key],
                     key=f"checkbox_text{bula_suffix}"
                 )
@@ -699,13 +699,13 @@ def display_single_bula_result(result: BulaComparison, bula_index: int):
             with col3:
                 show_html_diff_key = f"show_html_diff{bula_suffix}"
                 if show_html_diff_key not in st.session_state:
-                    st.session_state[show_html_diff_key] = False
+                    st.session_state[show_html_diff_key] = True
                 
                 st.session_state[show_html_diff_key] = st.checkbox(
-                                            "Visualização Detalhada",
-                                            value=st.session_state.get(show_html_diff_key, True),  # True é o valor padrão
-                                            key=f"checkbox_html{bula_suffix}"
-                                            )
+                    "Visualização lado a lado",
+                    value=st.session_state[show_html_diff_key],
+                    key=f"checkbox_html{bula_suffix}"
+                )
             
             # Detalhes das seções
             sections_container = st.container()
