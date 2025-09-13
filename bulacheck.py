@@ -786,7 +786,7 @@ def display_multi_bula_results(result: MultiBulaComparison):
         
         # Resumo geral de todas as comparações
         if result.comparisons:
-            st.subheader("🎯 Resumo Geral das Bulas")
+            st.subheader("Resumo Geral das Bulas")
             
             # Calcula estatísticas gerais
             all_scores = []
@@ -821,7 +821,7 @@ def display_multi_bula_results(result: MultiBulaComparison):
             # Gráfico consolidado (se plotly disponível)
             if PLOTLY_AVAILABLE and len(result.comparisons) > 1:
                 try:
-                    st.subheader("📈 Comparação Geral entre Bulas")
+                    st.subheader("Comparação Geral entre Bulas")
                     
                     # Prepara dados para gráfico
                     chart_data = []
@@ -1359,14 +1359,14 @@ def main():
         alterações que podem comprometer a segurança do paciente.
         
        
-        ### 🔍 Como funciona a detecção de múltiplas bulas:
+        ### Como funciona a detecção de múltiplas bulas ?
         1. **Identificação:** Procura pelo padrão "composição" no texto
         2. **Divisão:** Quando encontra uma nova seção "composição", identifica uma nova bula
         3. **Nomeação:** Extrai automaticamente o nome do medicamento de cada bula
         4. **Comparação:** Compara as bulas na ordem encontrada nos arquivos
         5. **Alertas:** Notifica sobre bulas que existem apenas em um dos arquivos
         
-        ### 📋 Padrões de filtragem utilizados:
+        ### Padrões de filtragem utilizados:
         - **Processos Anvisa:** Padrão XXXXXXX/XX-X (7 dígitos/2 dígitos-1 dígito)
         - **Texto administrativo:** Expressão "de texto de bula" (case-insensitive)
         """)
@@ -1384,6 +1384,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
