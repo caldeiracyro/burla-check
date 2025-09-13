@@ -532,7 +532,7 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     # Adiciona estilos customizados
     #custom_styles = """
    # Adiciona estilos customizados para modo dark - todas as cores legíveis
-custom_styles = '''
+    custom_styles = '''
 <style>
 .diff_header {
     background-color: #2d3748; 
