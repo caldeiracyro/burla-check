@@ -531,7 +531,9 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     
     # Adiciona estilos customizados
     custom_styles = """
-    <style>
+   # Adiciona estilos customizados para modo dark - todas as cores legíveis
+custom_styles = """
+<style>
 .diff_header {
     background-color: #2d3748; 
     color: #e2e8f0;
@@ -544,19 +546,19 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     color: #e2e8f0;
 }
 .diff_add {
-    background-color: #2d5a2d;
-    color: #e2e8f0;
-    border-left: 3px solid #48bb78;
+    background-color: #90ee90;  /* Verde mais claro */
+    color: #1a202c;  /* Texto escuro */
+    border-left: 3px solid #22543d;
 }
 .diff_chg {
-    background-color: #4a4a2d;
-    color: #2d3748;  /* Texto escuro no amarelo */
-    border-left: 3px solid #d69e2e;
+    background-color: #fff2a8;  /* Amarelo mais claro */
+    color: #1a202c;  /* Texto escuro */
+    border-left: 3px solid #b7791f;
 }
 .diff_sub {
-    background-color: #5a2d2d;
-    color: #e2e8f0;
-    border-left: 3px solid #f56565;
+    background-color: #ffb3b3;  /* Vermelho mais claro */
+    color: #1a202c;  /* Texto escuro */
+    border-left: 3px solid #c53030;
 }
 table.diff {
     font-family: 'Courier New', monospace; 
@@ -577,9 +579,17 @@ table.diff td {
     padding: 8px;
     border: 1px solid #4a5568;
 }
-/* Exceção para texto modificado */
+/* Texto escuro para todos os diffs coloridos */
+table.diff td.diff_add {
+    color: #1a202c !important;
+    font-weight: 600;
+}
 table.diff td.diff_chg {
-    color: #2d3748 !important;  /* Texto escuro no amarelo */
+    color: #1a202c !important;
+    font-weight: 600;
+}
+table.diff td.diff_sub {
+    color: #1a202c !important;
     font-weight: 600;
 }
 /* Melhora a legibilidade */
@@ -590,6 +600,8 @@ table.diff th {
     border: 1px solid #4a5568;
 }
 </style>
+"""
+
     """
     
     # Insere estilos no HTML
