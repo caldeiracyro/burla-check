@@ -549,9 +549,9 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     border-left: 3px solid #48bb78;
 }
 .diff_chg {
-    background-color: #5a5a2d;
-    color: #e2e8f0;
-    border-left: 3px solid #ecc94b;
+    background-color: #4a4a2d;
+    color: #2d3748;  /* Texto escuro no amarelo */
+    border-left: 3px solid #d69e2e;
 }
 .diff_sub {
     background-color: #5a2d2d;
@@ -576,6 +576,11 @@ table.diff td {
     color: #e2e8f0 !important;
     padding: 8px;
     border: 1px solid #4a5568;
+}
+/* Exceção para texto modificado */
+table.diff td.diff_chg {
+    color: #2d3748 !important;  /* Texto escuro no amarelo */
+    font-weight: 600;
 }
 /* Melhora a legibilidade */
 table.diff th {
