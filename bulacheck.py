@@ -912,7 +912,7 @@ def display_single_bula_results(result: BulaComparison, show_header: bool = True
                 """)
         
         # Avaliação geral
-        st.subheader("🎯 Avaliação Geral")
+        st.subheader("Avaliação Geral")
         
         # Determina cor baseada na avaliação
         if "CRÍTICO" in result.overall_assessment:
@@ -927,7 +927,7 @@ def display_single_bula_results(result: BulaComparison, show_header: bool = True
         # Gráfico de similaridade por seção
         if result.sections and PLOTLY_AVAILABLE:
             try:
-                st.subheader("📈 Similaridade por Seção")
+                st.subheader("Similaridade por Seção")
                 
                 # Prepara dados para o gráfico
                 chart_data = []
@@ -960,7 +960,7 @@ def display_single_bula_results(result: BulaComparison, show_header: bool = True
                 st.warning(f"⚠️ Erro ao gerar gráfico: {e}")
         
         # Detalhes das seções
-        st.subheader("🔍 Detalhamento por Seção")
+        st.subheader("Detalhamento por Seção")
         
         # Usar session_state para manter o estado dos filtros (com sufixo da bula)
         bula_suffix = f"_bula_{result.bula_index}"
@@ -1310,7 +1310,7 @@ def main():
         
         # Botão de análise
         if pdf1 and pdf2:
-            if st.button("🚀 Analisar Bulas", type="primary", use_container_width=True):
+            if st.button("Analisar Bulas", type="primary", use_container_width=True):
                 
                 if not PYMUPDF_AVAILABLE:
                     st.error("❌ PyMuPDF não está instalado. Instale com: pip install PyMuPDF")
@@ -1384,6 +1384,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
