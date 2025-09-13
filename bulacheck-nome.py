@@ -532,15 +532,59 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     # Adiciona estilos customizados
     custom_styles = """
     <style>
-    .diff_header {background-color: #f0f0f0; padding: 10px; font-weight: bold;}
-    .diff_next {background-color: #c0c0c0;}
-    .diff_add {background-color: #aaffaa;}
-    .diff_chg {background-color: #ffff77;}
-    .diff_sub {background-color: #ffaaaa;}
-    table.diff {font-family: courier; border: 1px solid #ccc;}
-    .diff_header {text-align: center;}
-    td.diff_header {text-align: right; padding-right: 10px;}
-    </style>
+.diff_header {
+    background-color: #2d3748; 
+    color: #e2e8f0;
+    padding: 10px; 
+    font-weight: bold;
+    border: 1px solid #4a5568;
+}
+.diff_next {
+    background-color: #4a5568;
+    color: #e2e8f0;
+}
+.diff_add {
+    background-color: #2d5a2d;
+    color: #e2e8f0;
+    border-left: 3px solid #48bb78;
+}
+.diff_chg {
+    background-color: #5a5a2d;
+    color: #e2e8f0;
+    border-left: 3px solid #ecc94b;
+}
+.diff_sub {
+    background-color: #5a2d2d;
+    color: #e2e8f0;
+    border-left: 3px solid #f56565;
+}
+table.diff {
+    font-family: 'Courier New', monospace; 
+    border: 1px solid #4a5568;
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+.diff_header {
+    text-align: center;
+}
+td.diff_header {
+    text-align: right; 
+    padding-right: 10px;
+}
+/* Garante que o texto seja visível */
+table.diff td {
+    color: #e2e8f0 !important;
+    padding: 8px;
+    border: 1px solid #4a5568;
+}
+/* Melhora a legibilidade */
+table.diff th {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    padding: 10px;
+    border: 1px solid #4a5568;
+}
+</style>
     """
     
     # Insere estilos no HTML
