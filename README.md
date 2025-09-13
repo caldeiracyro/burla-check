@@ -33,7 +33,7 @@ cd bulacheck-multi-bula
 pip install -r requirements.txt
 
 # Execute a aplicação
-streamlit run bulacheck_multi2.py
+streamlit run bulacheck.py
 ```
 
 ## Dependências
