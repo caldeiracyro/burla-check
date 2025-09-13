@@ -1372,6 +1372,10 @@ def main():
         - **Processos Anvisa:** Padrão XXXXXXX/XX-X (7 dígitos/2 dígitos-1 dígito)
         - **Texto administrativo:** Expressão "de texto de bula" (case-insensitive)
         """)
+        st.markdown("---")
+        st.markdown("""
+        **Desenvolvido e elaborado por Cyro Caldeira, Daniel Dourado, Gláucia Lima e Leonardo Santos**
+        """)
         
     except Exception as e:
         st.error(f"❌ Erro na aplicação: {e}")
@@ -1380,3 +1384,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
