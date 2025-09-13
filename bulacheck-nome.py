@@ -530,9 +530,9 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     html_diff = differ.make_file(lines1, lines2, title1, title2)
     
     # Adiciona estilos customizados
-    custom_styles = """
+    #custom_styles = """
    # Adiciona estilos customizados para modo dark - todas as cores legíveis
-custom_styles = """
+custom_styles = '''
 <style>
 .diff_header {
     background-color: #2d3748; 
@@ -546,22 +546,22 @@ custom_styles = """
     color: #e2e8f0;
 }
 .diff_add {
-    background-color: #90ee90;  /* Verde mais claro */
-    color: #1a202c;  /* Texto escuro */
+    background-color: #90ee90;
+    color: #1a202c;
     border-left: 3px solid #22543d;
 }
 .diff_chg {
-    background-color: #fff2a8;  /* Amarelo mais claro */
-    color: #1a202c;  /* Texto escuro */
+    background-color: #fff2a8;
+    color: #1a202c;
     border-left: 3px solid #b7791f;
 }
 .diff_sub {
-    background-color: #ffb3b3;  /* Vermelho mais claro */
-    color: #1a202c;  /* Texto escuro */
+    background-color: #ffb3b3;
+    color: #1a202c;
     border-left: 3px solid #c53030;
 }
 table.diff {
-    font-family: 'Courier New', monospace; 
+    font-family: courier; 
     border: 1px solid #4a5568;
     background-color: #1a202c;
     color: #e2e8f0;
@@ -573,26 +573,23 @@ td.diff_header {
     text-align: right; 
     padding-right: 10px;
 }
-/* Garante que o texto seja visível */
 table.diff td {
-    color: #e2e8f0 !important;
+    color: #e2e8f0;
     padding: 8px;
     border: 1px solid #4a5568;
 }
-/* Texto escuro para todos os diffs coloridos */
 table.diff td.diff_add {
-    color: #1a202c !important;
+    color: #1a202c;
     font-weight: 600;
 }
 table.diff td.diff_chg {
-    color: #1a202c !important;
+    color: #1a202c;
     font-weight: 600;
 }
 table.diff td.diff_sub {
-    color: #1a202c !important;
+    color: #1a202c;
     font-weight: 600;
 }
-/* Melhora a legibilidade */
 table.diff th {
     background-color: #2d3748;
     color: #e2e8f0;
@@ -600,9 +597,10 @@ table.diff th {
     border: 1px solid #4a5568;
 }
 </style>
-"""
+'''
 
-    """
+
+   # """
     
     # Insere estilos no HTML
     html_diff = html_diff.replace('<head>', f'<head>{custom_styles}')
