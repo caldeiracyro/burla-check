@@ -1,0 +1,256 @@
+
+RELATÓRIO DE COMPARAÇÃO DE MÚLTIPLAS BULAS
+==========================================
+
+Arquivos Comparados:
+- Referência: bulas_atual.pdf (5 bula(s))
+- Atual: bulas_ultima.pdf (5 bula(s))
+
+Tempo de Processamento Total: 4.17s
+Comparações Realizadas: 5
+
+BULAS SEM CORRESPONDÊNCIA:
+-------------------------
+
+DETALHES POR BULA:
+==================================================
+
+BULA 1
+----------------------------------------
+Avaliação Geral: ✅ ESTÁVEL: Poucas alterações (média: 99.57%)
+Seções Analisadas: 10
+Similaridade Média: 99.57%
+
+Seções:
+  - COMPOSIÇÃO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 1. PARA QUE ESTE MEDICAMENTO É INDICADO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 2. COMO ESTE MEDICAMENTO FUNCIONA:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO:
+    Similaridade: 97.92%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 6. COMO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO:
+    Similaridade: 97.77%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+
+BULA 2
+----------------------------------------
+Avaliação Geral: ✅ ESTÁVEL: Poucas alterações (média: 99.99%)
+Seções Analisadas: 10
+Similaridade Média: 99.99%
+
+Seções:
+  - COMPOSIÇÃO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 1. PARA QUE ESTE MEDICAMENTO É INDICADO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 2. COMO ESTE MEDICAMENTO FUNCIONA:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO:
+    Similaridade: 99.95%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 6. COMO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+
+BULA 3
+----------------------------------------
+Avaliação Geral: ✅ ESTÁVEL: Poucas alterações (média: 93.44%)
+Seções Analisadas: 10
+Similaridade Média: 93.44%
+
+Seções:
+  - COMPOSIÇÃO:
+    Similaridade: 99.32%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 1. PARA QUE ESTE MEDICAMENTO É INDICADO:
+    Similaridade: 97.64%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 2. COMO ESTE MEDICAMENTO FUNCIONA:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 67.59%
+    Avaliação: 🟡 Alteração significativa
+    Método: transformers
+  - 4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO:
+    Similaridade: 88.59%
+    Avaliação: 🟢 Alteração mínima
+    Método: transformers
+  - 6. COMO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 87.19%
+    Avaliação: 🟢 Alteração mínima
+    Método: transformers
+  - 7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO:
+    Similaridade: 99.95%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR:
+    Similaridade: 98.48%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE MEDICAMENTO:
+    Similaridade: 95.69%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+
+BULA 4
+----------------------------------------
+Avaliação Geral: ✅ ESTÁVEL: Poucas alterações (média: 100.00%)
+Seções Analisadas: 10
+Similaridade Média: 100.00%
+
+Seções:
+  - COMPOSIÇÃO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 1. PARA QUE ESTE MEDICAMENTO É INDICADO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 2. COMO ESTE MEDICAMENTO FUNCIONA:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 6. COMO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+
+BULA 5
+----------------------------------------
+Avaliação Geral: ✅ ESTÁVEL: Poucas alterações (média: 100.00%)
+Seções Analisadas: 10
+Similaridade Média: 100.00%
+
+Seções:
+  - COMPOSIÇÃO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 1. PARA QUE ESTE MEDICAMENTO É INDICADO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 2. COMO ESTE MEDICAMENTO FUNCIONA:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 3. QUANDO NÃO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 4. O QUE DEVO SABER ANTES DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 6. COMO DEVO USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 5. ONDE, COMO E POR QUANTO TEMPO POSSO GUARDAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 7. O QUE DEVO FAZER QUANDO EU ME ESQUECER DE USAR ESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 8. QUAIS OS MALES QUE ESTE MEDICAMENTO PODE ME CAUSAR:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
+  - 9. O QUE FAZER SE ALGUÉM USAR UMA QUANTIDADE MAIOR DO QUE A INDICADA DESTE MEDICAMENTO:
+    Similaridade: 100.00%
+    Avaliação: ✅ Sem alteração relevante
+    Método: transformers
