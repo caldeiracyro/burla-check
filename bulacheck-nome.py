@@ -40,7 +40,7 @@ except ImportError:
 # Configuração da página
 st.set_page_config(
     page_title="BurlaCheck - Detector de Alterações em Bulas",
-    page_icon="💊",
+    page_icon="🥼",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -702,10 +702,10 @@ def display_single_bula_result(result: BulaComparison, bula_index: int):
                     st.session_state[show_html_diff_key] = False
                 
                 st.session_state[show_html_diff_key] = st.checkbox(
-                    "🎨 Visualização HTML",
-                    value=st.session_state[show_html_diff_key],
-                    key=f"checkbox_html{bula_suffix}"
-                )
+                                            "Visualização Detalhada",
+                                            value=st.session_state.get(show_html_diff_key, True),  # True é o valor padrão
+                                            key=f"checkbox_html{bula_suffix}"
+                                            )
             
             # Detalhes das seções
             sections_container = st.container()
@@ -900,17 +900,14 @@ def main():
     """Interface principal"""
     try:
         # Header
-        st.title("💊 BurlaCheck Multi-Bula")
+        st.title("🥼 BurlaCheck Multi-Bula")
         st.subheader("Detector de Alterações em Bulas Digitalizadas com Suporte a Múltiplas Bulas")
         
         st.markdown("""
         Esta ferramenta utiliza técnicas de processamento de linguagem natural para detectar 
         alterações entre versões de bulas de medicamentos, conforme a **RDC nº 885/2024** da Anvisa.
-        
-        🆕 **Nova funcionalidade:** Suporte a arquivos com **múltiplas bulas**, comparando automaticamente 
-        na ordem (primeira com primeira, segunda com segunda, etc.).
-        
-        🚀 **Recursos avançados:**
+               
+        **Recursos avançados:**
         - Consolidação automática de seções não padrão nas seções regulamentares correspondentes
         - Filtragem inteligente de páginas administrativas
         - Identificação automática de bulas usando o padrão da seção "composição"
