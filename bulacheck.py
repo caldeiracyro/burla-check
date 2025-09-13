@@ -1202,13 +1202,11 @@ def main():
         st.subheader("Detector de Alterações em Bulas Digitalizadas com Suporte a Múltiplas Bulas")
         
         st.markdown("""
-        Esta ferramenta utiliza técnicas de processamento de linguagem natural para detectar 
+        Esta ferramenta utiliza técnicas de processamento de linguagem natural (NPL) para detectar 
         alterações entre versões de bulas de medicamentos, conforme a **RDC nº 885/2024** da Anvisa.
-        
-        🆕 **Nova funcionalidade:** Suporte a arquivos com **múltiplas bulas**, comparando automaticamente 
-        na ordem (primeira com primeira, segunda com segunda, etc.).
-        
-        🎯 **Recursos avançados:** - Consolidação automática de seções não padrão nas seções regulamentares correspondentes
+              
+        **Recursos avançados:** 
+        - Consolidação automática de seções não padrão nas seções regulamentares correspondentes
         - Filtragem inteligente de páginas administrativas
         - Identificação automática de bulas usando o padrão da seção "composição"
         """)
@@ -1386,6 +1384,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
