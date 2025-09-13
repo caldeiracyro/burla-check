@@ -527,7 +527,7 @@ def generate_html_diff(text1: str, text2: str, title1: str = "Anterior", title2:
     lines1 = text1.splitlines()
     lines2 = text2.splitlines()
     
-    html_diff = differ.make_file(lines1, lines2, title1, title2)
+    html_diff = differ.make_table(lines1, lines2, title1, title2)
     
     # Adiciona estilos customizados
     #custom_styles = """
@@ -603,7 +603,7 @@ table.diff th {
    # """
     
     # Insere estilos no HTML
-    html_diff = html_diff.replace('<head>', f'<head>{custom_styles}')
+    html_diff = html_diff.f"{custom_styles}\n{html_diff}"
     
     return html_diff
 
