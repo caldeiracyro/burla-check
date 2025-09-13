@@ -1375,6 +1375,7 @@ def main():
         st.markdown("---")
         st.markdown("""
         **Desenvolvido e elaborado por Cyro Caldeira, Daniel Dourado, Gláucia Lima e Leonardo Santos**
+        ***Com a finalidade de obtenção de certificado de especialista em Ciência de Dados e Inteligência Artificial***
         """)
         
     except Exception as e:
@@ -1384,4 +1385,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
