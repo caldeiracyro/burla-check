@@ -603,7 +603,7 @@ table.diff th {
    # """
     
     # Insere estilos no HTML
-    html_diff = html_diff.f"{custom_styles}\n{html_diff}"
+    html_diff = f"{custom_styles}\n{html_diff}"
     
     return html_diff
 
